@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LHLearningDemo</string>
+    <string name="description">I wrote these demos at the beginning of my Android Development.</string>
+
+    <string name="drag_drop">Drag &amp; Drop &amp; RegionDetect</string>
+    <string name="drag_drop_desp">long click the color block to start drag,get different response when be dropped in different area.</string>
+    <string name="rotate">Rotate Image</string>
+    <string name="rotate_desp">rotate image in 2 ways:1.redraw bitmap;2.rotate canvas</string>
+    <string name="translate_hide">Translate or Hide a view</string>
+    <string name="translate_hide_desp">translate a view will not affect other touch area</string>
+    <string name="network_connection">Get Sth from Network</string>
+    <string name="network_connection_desp">gets a pic from the network;TODO:try to use Volley(an HTTP library for Android)</string>
+    <string name="graffiti">Graffiti</string>
+    <string name="graffiti_desp">can pick a picture from system ,edit and save.Using buffer strategy to avoid too many paths are drawn each frame,a bitmap is drawn instead.</string>
+    <string name="recycleviewalbum">RecycleViewAlbum</string>
+    <string name="recycleviewalbum_desp">uses RecycleView to show the list,uses CardView to show the item.</string>
+
+    <string name="hide">隐藏</string>
+    <string name="show">显示</string>
+    <string name="translate">移动</string>
+    <string name="back">回原位</string>
+    <string name="switchTo">切换</string>
+    <string name="connect">连接</string>
+    <string name="choose_pics">选择图片</string>
+    <string name="save">保存</string>
+</resources>
