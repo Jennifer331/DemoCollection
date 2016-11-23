@@ -14,6 +14,10 @@
     <string name="graffiti_desp">can pick a picture from system ,edit and save.Using buffer strategy to avoid too many paths are drawn each frame,a bitmap is drawn instead.</string>
     <string name="recycleviewalbum">RecycleViewAlbum</string>
     <string name="recycleviewalbum_desp">uses RecycleView to show the list,uses CardView to show the item.</string>
+    <string name="actionbaranimation">ActionBar Title Animation</string>
+    <string name="actionbaranimation_desp">click on actionbar title</string>
+    <string name="databaseperformance">Database Performance Test</string>
+    <string name="databaseperformace_desp"></string>
 
     <string name="hide">隐藏</string>
     <string name="show">显示</string>

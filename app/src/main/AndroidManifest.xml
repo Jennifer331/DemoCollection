@@ -5,6 +5,8 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -27,6 +29,10 @@
         <activity android:name=".recycleviewalbum.AlbumActivity"/>
         <activity android:name=".recycleviewalbum.ImageActivity"/>
         <activity android:name=".recycleviewalbum.SingleImageActivity"/>
+        <activity android:name=".databaseperfromance.DbPerfActivity"/>
+        <activity
+            android:name=".actionbaranimation.ActionBarAnimActivity"
+            android:theme="@android:style/Theme.Holo.Light"/>
     </application>
 
 </manifest>

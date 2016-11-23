@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/input"
+            style="@style/DbPerfBtn"
+            android:layout_width="0dp"
+            android:inputType="number"
+            android:layout_weight="0.6"/>
+        <Button
+            style="@style/DbPerfBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:text="Press To Refresh Data!"
+            android:background="@android:color/holo_red_light"
+            android:onClick="generateData"/>
+    </LinearLayout>
+    <Button
+        style="@style/DbPerfBtn"
+        android:text="insert one by one"
+        android:onClick="sequentiallyInsert"/>
+    <Button
+        style="@style/DbPerfBtn"
+        android:text="bulkInsert"
+        android:onClick="bulkInsert"/>
+    <Button
+        style="@style/DbPerfBtn"
+        android:text="applyBatch"
+        android:onClick="applyBatch"/>
+    <TextView
+        android:id="@+id/output"
+        style="@style/DbPerfBtn"
+        android:layout_width="match_parent"/>
+    <Button
+        style="@style/DbPerfBtn"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="scanAll"
+        android:onClick="scallAll"/>
+</LinearLayout>

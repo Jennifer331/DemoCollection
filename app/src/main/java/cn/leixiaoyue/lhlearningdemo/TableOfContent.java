@@ -14,6 +14,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import cn.leixiaoyue.lhlearningdemo.actionbaranimation.ActionBarAnimActivity;
+import cn.leixiaoyue.lhlearningdemo.databaseperfromance.DbPerfActivity;
 import cn.leixiaoyue.lhlearningdemo.draganddrop.DragAndDropActivity;
 import cn.leixiaoyue.lhlearningdemo.graffiti.GraffitiActivity;
 import cn.leixiaoyue.lhlearningdemo.networkconnection.NetworkActivity;
@@ -78,6 +80,14 @@ public class TableOfContent extends ListActivity {
                 getText(R.string.recycleviewalbum).toString(),
                 getText(R.string.recycleviewalbum).toString(),
                 AlbumActivity.class);
+        addActivity(R.drawable.effect_recycleview_album,
+                getText(R.string.actionbaranimation).toString(),
+                getText(R.string.actionbaranimation_desp).toString(),
+                ActionBarAnimActivity.class);
+        addActivity(R.drawable.effect_recycleview_album,
+                getText(R.string.databaseperformance).toString(),
+                getText(R.string.databaseperformace_desp).toString(),
+                DbPerfActivity.class);
     }
 
     private void addActivity(int imageId, String title, String description, Class<? extends Activity> activity) {

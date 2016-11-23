@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <View
+            android:id="@+id/stub"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="+添加标题"
+            android:gravity="left|center_vertical"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="16dp"
+            android:background="#ffffff"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/cancel"
+        android:background="@android:color/darker_gray"/>
+    <Button
+        android:id="@id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="取消"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:textColor="@android:color/secondary_text_dark"
+        android:background="@null"/>
+</RelativeLayout>
